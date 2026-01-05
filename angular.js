@@ -1,14 +1,16 @@
-import ts from './typescript.js';
+import base from './base.js';
 
 /** @type {import("prettier").Config} */
 const config = {
-  ...ts,
+  ...base,
 
   htmlWhitespaceSensitivity: 'ignore',
 
   plugins: [
     'prettier-plugin-organize-attributes',
-    'prettier-plugin-tailwindcss'
+    'prettier-plugin-tailwindcss',
+    'prettier-plugin-classnames',
+    'prettier-plugin-merge'
   ],
 
   overrides: [
