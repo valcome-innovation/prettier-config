@@ -1,0 +1,38 @@
+{
+  "name": "@valcome/prettier-config",
+  "version": "0.1.0",
+  "description": "Valcome Prettier base configuration",
+  "homepage": "https://github.com/valcome-innovation/prettier-config#readme",
+  "bugs": {
+    "url": "https://github.com/valcome-innovation/prettier-config/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/valcome-innovation/prettier-config.git"
+  },
+  "license": "MIT",
+  "author": "Valcome Innovation GmbH",
+  "type": "module",
+  "exports": {
+    ".": "./base.js",
+    "./angular": "./angular.js",
+    "./typescript": "./typescript.js"
+  },
+  "main": "base.js",
+  "files": [
+    "base.js",
+    "angular.js",
+    "typescript.js"
+  ],
+  "dependencies": {
+    "prettier-plugin-classnames": "0.8.3",
+    "prettier-plugin-organize-attributes": "1.0.0",
+    "prettier-plugin-tailwindcss": "0.7.2"
+  },
+  "peerDependencies": {
+    "prettier": ">=3.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
