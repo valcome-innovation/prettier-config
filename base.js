@@ -2,7 +2,7 @@
 const config = {
   printWidth: 80,
   bracketSameLine: false,
-  singleAttributePerLine: false
+  singleAttributePerLine: false,
 };
 
 export default config;
