@@ -4,8 +4,6 @@ import base from "./base.js";
 const config = {
   ...base,
 
-  htmlWhitespaceSensitivity: "ignore",
-
   plugins: [
     "prettier-plugin-organize-attributes",
     "prettier-plugin-tailwindcss",
