@@ -1,6 +1,6 @@
 {
   "name": "@valcome/prettier-config",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Valcome Prettier base configuration",
   "homepage": "https://github.com/valcome-innovation/prettier-config#readme",
   "bugs": {
